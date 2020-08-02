@@ -1,6 +1,6 @@
 {
   "name": "@myrotvorets/findenv",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Package internally used by microservices",
   "main": "dist/index.js",
   "scripts": {
