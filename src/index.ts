@@ -14,6 +14,7 @@ export async function findEnv(): Promise<string | null> {
     locations.push(resolve(join(cwd, '.env')));
 
     for (const location of locations) {
+        // eslint-disable-next-line no-await-in-loop
         if (await exists(location)) {
             return location;
         }
